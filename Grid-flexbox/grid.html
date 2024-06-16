@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Practice</title>
+  </head>
+  <body style="padding-bottom:1000px;">
+    <div style="display:grid; 
+          grid-template-columns:100px 100px;">
+        <div style="background-color: lightblue;"> 
+          div 1
+        </div>
+        <div style="background-color: lightpink;">
+          div 2
+          <p> this is some text</p>
+        </div>
+    </div>
+
+    <div style="display:grid; 
+          grid-template-columns:100px 100px 200px;
+          margin-top:30px">
+        <div style="background-color: lightblue;"> 
+          div 1
+        </div>
+        <div style="background-color: lightpink;">
+          div 2
+          <p> this is some text</p>
+        </div>
+        <div style="background-color: lightblue;"> 
+          div 3
+        </div>
+        <div style="background-color: lightpink;">
+          div 2
+        </div>
+    </div>
+
+    <div style="
+          margin-top:30px;
+          display:grid; 
+          grid-template-columns:100px 1fr">
+        <div style="background-color: lightblue;"> 
+          div 1
+        </div>
+        <div style="background-color: lightpink;">
+          1 fr
+          <p> fr means free space which means to take whatever remaining space is there</p>
+        </div>
+    </div>
+
+    <div style="
+          margin-top:30px;
+          display:grid; 
+          grid-template-columns:100px 1fr 2fr ">
+        <div style="background-color: lightblue;"> 
+          div 1
+        </div>
+        <div style="background-color: lightpink;">
+          1 fr
+          <p> fr means free space which means to take whatever remaining space is there</p>
+        </div>
+        <div style="background-color: lightblue;"> 
+          2 fr 
+          <p>this means take the free space in ratio of 1:2</p>
+        </div>
+    </div>
+
+    <div style="display:grid; 
+          grid-template-columns:1fr 1fr 1fr ;
+          margin-top:30px;
+          height:200px;
+          column-gap:20px;
+          row-gap: 30px;">
+        <div style="background-color: lightblue;"> 
+          1fr
+        </div>
+        <div style="background-color: lightpink;">
+          1fr
+        </div>
+        <div style="background-color: lightblue;"> 
+          1fr
+        </div>
+        <div style="background-color: lightpink;">
+          1fr
+        </div>
+        <div style="background-color: lightblue;"> 
+          1fr
+        </div>
+        <div style="background-color: lightpink;">
+          1fr
+        </div>
+      </div>
+  <div style="display:grid; 
+        grid-template-columns:200px 75px;
+        margin-top:20px;">
+      <div style="background-color: lightblue;"> 
+        200px 
+      </div>
+      <div style="background-color: lightpink;">
+        75px
+      </div>
+  </div>
+
+  <div style="display:grid; 
+        grid-template-columns:50px 1fr 75px;
+        margin-top:20px">
+      <div style="background-color: lightblue;"> 
+        col1
+      </div>
+      <div style="background-color: lightpink;">
+        col2
+      </div>
+      <div style="background-color: lightblue;"> 
+        col3
+      </div>
+  </div>
+        
+  <div style="display:grid; 
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  margin-top:20px;
+  column-gap:20px;
+  row-gap:10px">
+    <div style="background-color: lightblue;"> 
+      col1
+    </div>
+    <div style="background-color: lightblue;"> 
+      col1
+    </div>
+    <div style="background-color: lightblue;"> 
+      col1
+    </div>
+    <div style="background-color: lightblue;"> 
+      col1
+    </div>
+    <div style="background-color: lightblue;"> 
+      col1
+    </div>
+    <div style="background-color: lightblue;"> 
+      col1
+    </div>
+    <div style="background-color: lightblue;"> 
+      col1
+    </div>
+    <div style="background-color: lightblue;"> 
+      col1
+    </div>
+    
+
+  </div>
+  
+    
+  </body>
+</html>
